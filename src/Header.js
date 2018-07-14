@@ -1,16 +1,14 @@
 import React from "react";
 import PageHeader from 'react-bootstrap/lib/PageHeader';
-import Image from 'react-bootstrap/lib/Image';
-
-
 
 
 const Header =(props) => (
     <PageHeader>
-        <Image src="/img/header.png" responsive/>
-        Example page header <small>Subtext for header</small>
+        <div align="center">
+        <img src="https://cdn.icon-icons.com/icons2/1129/PNG/512/fileinterfacesymboloftextpapersheet_79740.png" width="150" height="150" />
+        Книжная полка
+        </div>
     </PageHeader>
 );
-
 
 export default Header;
